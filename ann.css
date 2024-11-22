@@ -1,0 +1,163 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    color: #2c3e50;
+}
+
+a {
+    text-decoration: none;
+    color: #2980b9;
+}
+
+a:hover {
+    color: #3498db;
+}
+
+/* Header Styles */
+header {
+    background-color: #34495e;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li p {
+    display: inline;
+    color: #ecf0f1;
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+    color: rgb(100, 3, 255);
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cta {
+    background-color: #e67e22;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    margin: 10px;
+    display: inline-block;
+}
+
+.cta:hover {
+    background-color: #d35400;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #ecf0f1;
+    padding: 20px;
+    text-align: center;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 10px 0;
+}
+
+/* About Section */
+.about {
+    padding: 20px;
+}
+
+/* Services Section */
+.services {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.service-item {
+    margin: 20px 0;
+}
+
+/* Portfolio Section */
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.portfolio-item {
+    width: 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+.portfolio-item img {
+    width: 37%;
+    height: auto;
+}
+
+/* Contact Section */
+.contact {
+    padding: 20px;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact-form label {
+    margin: 10px 0 5px;
+}
+
+#contact-form input, 
+#contact-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contact-form button {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #219653;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #34495e;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 10px 0;
+}
